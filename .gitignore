@@ -1,0 +1,30 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.venv/
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Large data files (download separately — see data/README.md)
+data/touchpoints.csv
+data/user_profiles.csv
+# Note: data/campaign_spend.csv IS tracked (only 2.7KB)
+
+# Generated outputs (regenerated on notebook run)
+outputs/csv/*.csv
+outputs/plots/*.png
